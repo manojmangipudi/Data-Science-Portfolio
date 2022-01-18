@@ -14,3 +14,13 @@ To check the wine quality the physico-chemical properties were,
 * Sulphates
 * Alcohol
 * Quality (score between 0 and 10)
+
+### Resources ###
+
+* P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553, 2009.
+
+
+### Project Agenda ###
+
+The project aimed to check the quality of wine with various machine learning techniques, and examine the performance metrics of respective predictive algorithm.
+
