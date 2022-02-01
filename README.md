@@ -1,4 +1,6 @@
-#  Deep Learning Micro Projects
+#  Deep Learning Micro Projects - Image classification, recognition
+
+These were few micro projects, which I have tried to get good understanding of the underlying concepts of machine learning and deep learning techniques.
 
 1. Customer Churn Model Prediction: Built an Artificial Neural Network model which predicts the customers at the highest risk of leaving the bank. having multiple features of a customer such as Credit score, Gender, Age Factor, Tenure, Account Balance, Number of products, Details regarding having a credit card and being an active member, Estimated Salary etc. We take all the features as input and classify the test data output by providing the customer leaving the bank or not.
 
@@ -6,7 +8,7 @@
 
 3. Potato Disease Classification: 
    - Credits: codebasics(Dhaval Patel) 
-   - The project is related to agriculture domain,  Farmers every year face economic loss and crop waste due to various diseases in potato plants. We will use image classification       using CNN and built a mobile app using which a farmer can take a picture and app will tell you if the plant has a disease or not. Technology stack for this project will be,
+   - The project is related to agriculture domain,  Farmers every year face economic loss and crop waste due to various diseases in potato plants. We will use image classification( the data we use will be potato leaf images having three features, potato_early blight, potato_healthy and potato_ late blight) using CNN and built a mobile app using which a farmer can take a picture and app will tell you if the plant has a disease or not(potato leaves with early blight and late blight were the negative scenarios, when the farmer takes a picture, the person get to know the status of the leaf and can act accordingly). Technology stack for this project will be,
 
       Model Building: tensorflow, CNN, data augmentation, tf dataset
       Backend Server and ML Ops: tf serving, FastAPI
@@ -14,3 +16,35 @@
       Frontend: React JS, React Native
       Deployment: GCP (Google cloud platform, GCF (Google cloud functions)
     - Data: Data is obtained from Kaggle, We provide the input as images of potato plant with Early blight, late blight, and healthy leaves.  
+
+# Machine Learning Micro Projects
+
+## Wine Classier
+
+The project aimed to check the wine quality(red wine and white wine) with respective physico-chemical properties. The project is inspired and data is used from [ UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Wine+Quality), The data usage permission were created by [P. Cortez](https://http://www3.dsi.uminho.pt/pcortez/wine/). Further, Vinho verde(Wine) is a unique product from the Minho (northwest) region of Portugal. Medium in alcohol, is it particularly appreciated due to its freshness (specially in the summer).
+To check the wine quality the physico-chemical properties were, 
+* Fixed acidity
+* Volatile acidity
+* Citric acid
+* Residual sugar
+* Chlorides
+* Free sulfur dioxide
+* Total sulfur dioxide
+* Density
+* pH
+* Sulphates
+* Alcohol
+* Quality (score between 0 and 10)
+
+### Resources ###
+
+* P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553, 2009.
+
+
+### Project Agenda ###
+
+The project aimed to check the quality of wine with various machine learning techniques, and examine the performance metrics of respective predictive algorithm.
+The Machine learning models used were Decision trees, K-nearest Neighbours, K-means cluster analysis, Lasso regression, Naive Bias, Random Forest. As stated above two data sets red and white wine were tested, the quality has been checked by adjusting a binary score (0- if the quality of a wine sample is 3, 4 or 5. And 1 - if 6, 7, 8 or 9)
+
+
+
